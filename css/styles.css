@@ -15,6 +15,13 @@
 	color: #333;
 }
 
+.header a {
+	float: right;
+	font-size: 0.5em;
+	color: #333;
+	margin-left: 20px;
+}
+
 .project {
 	margin-bottom: 20px;
 }
