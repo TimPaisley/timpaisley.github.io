@@ -10,7 +10,7 @@
 	position: relative;
 	padding: 20px 0px;
 
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Trirong', serif;
 	font-size: 40px;
 	color: #333;
 }
@@ -30,7 +30,7 @@
 	position: relative;
 	float: left;
 
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Rubik', sans-serif;
 	font-size: 16px;
 	color: #333;
 }
@@ -39,7 +39,7 @@
 	position: relative;
 	float: right;
 
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	font-size: 12px;
 	color: #333;
 }
@@ -47,4 +47,42 @@
 .project img {
 	width: 100%;
 	border: 1px solid #333;
+}
+
+h1, h2, h3 {
+	font-family: 'Trirong', serif;
+	margin: 0;
+	line-height: 1.5em;
+	color: #333;
+}
+
+h3 {
+	color: #666;
+	margin-bottom: 20px;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+}
+
+.brand {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.brand a {
+	position: relative;
+	float: right;
+	padding: 10px;
+
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #333;
+	font-family: 'Rubik', sans-serif;
+}
+
+.brand a:hover {
+	color: white;
+	background-color: #333;
 }
