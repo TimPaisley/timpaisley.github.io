@@ -16,10 +16,22 @@
 }
 
 .header a {
-	float: right;
-	font-size: 0.5em;
+	text-decoration: none;
 	color: #333;
+}
+
+.header .socials {
+	float: right;
+}
+
+.header .socials a {
 	margin-left: 20px;
+	color: #999;
+	font-size: 0.6em;
+}
+
+.header .socials a:hover {
+	color: #333;
 }
 
 .project {
@@ -44,21 +56,9 @@
 	color: #333;
 }
 
-.project img {
+img {
 	width: 100%;
 	border: 1px solid #333;
-}
-
-h1, h2, h3 {
-	font-family: 'Trirong', serif;
-	margin: 0;
-	line-height: 1.5em;
-	color: #333;
-}
-
-h3 {
-	color: #666;
-	margin-bottom: 20px;
 }
 
 p {
@@ -66,14 +66,22 @@ p {
 }
 
 .brand {
+	font-family: 'Rubik', sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
+	margin-bottom: 20px;
+}
+
+.brand .title {
+	font-size: 1.2em;
+}
+
+.brand .subtitle {
+	color: #666;
 }
 
 .brand a {
-	position: relative;
-	float: right;
 	padding: 10px;
 
 	text-decoration: none;
