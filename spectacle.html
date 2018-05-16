@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>NEC Spectacle | Tim Paisley</title>
+    <title>Kitestream Spectacle | Tim Paisley</title>
 
     <link href="https://fonts.googleapis.com/css?family=Rubik|Trirong" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css" />
@@ -40,7 +40,7 @@
 
         <div class="brand">
             <div>
-                <div class="title">NEC Spectacle</div>
+                <div class="title">Kitestream Spectacle</div>
                 <div class="subtitle">Web-based Tool for Exploring Geographic Data</div>
             </div>
         </div>
@@ -48,8 +48,48 @@
         <img src="img/spectacle.jpg" />
 
         <p>
-            Page Content
+            Spectacle is one of the larger projects in development at NEC Smart Cities, currently backed by two dev teams. The tool,
+            which is built using a combination of web technolgies and functional programming languages, is designed to consolidate,
+            visualise and better understand councils' geographic data. By using Spectacle, councils can explore their data like they've
+            never been able to before, helping them to make better decisions for the wellbeing and growth of their cities.
         </p>
+
+        <p>
+            Spectacle came about, much like the <a href="digitalcitymodel.html">Digital City Model</a>, as a result of our
+            relationship with Wellington City Council, and was initially part of the
+            <a href="http://www.nzspatialawards.org.nz/winners-2016.html">award winning</a> Living Lab project. For the first
+            six months of the project I worked alone on the development of the app, learning Ruby (on Rails), PostgreSQL/PostGIS,
+            Command Line and some basic JavaScript as I worked. The result of my work was a single page tool that could be used
+            to filter and visualise different kinds of geographic data in Wellington, and became well utilised within the Community
+            Safety team at WCC. The original tool is still used to this day in the process of creating Liquor Licence renewal reports.
+            In the early months of 2017 we decided to take a new approach that favoured long-term development as opposed to the quick,
+            iterative prototypes that we'd been developing so far.
+        </p>
+
+        <p>
+            In its current state, Spectacle began in the first half of 2017 around the time our small department of ten (and my
+            team of one) started to grow. The team working on Spectacle grew from just me to around eight people in just under four
+            months. We started a new, fresh codebase using a combination of Elm, Haskell, Ruby on Rails and a bit of TypeScript for
+            good measure. While part of the team put together a solid foundation for the API which would power our tool, my team and I
+            got stuck into fleshing out a web app in Elm. I working mainly on the UI and UX, using the designs and product knowledge
+            I'd gathered over the year of working on Living Lab. Development progressed quickly, and by April 2018 we had not only a
+            solid foundation for future work on Spectacle, but already a tool that was being deployed throughout Wellington and
+            Auckland Councils. The tool remains simple to use and understand, is secure and reliable, and can easily handle hundreds
+            of thousands of data points at once.
+        </p>
+
+        <p>
+            Web technology sits in a very weird position at the moment. We use Leaflet to render our maps in Spectacle, but vector
+            maps are quickly taking over, and WebGL is hot on its heels as well. My guess is that, in the next five years, we'll see
+            tools like Spectacle slowly trend towards tools like Digital City Model, as web tech incorporates more powerful rendering
+            technology and mixed reality capabilities. Having a solid foundation (both the API and design work surrounding Spectacle)
+            will serve as a huge advantage when picking up these technologies.
+        </p>
+
+        <!-- Footer -->
+		<div class="footer">
+			Oh, and hey! I made this website too! Last updated May 2018.
+		</div>
     </div>
 </body>
 
