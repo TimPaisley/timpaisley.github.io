@@ -73,6 +73,11 @@ p {
 	text-align: justify;
 }
 
+p.understated {
+	color: #666;
+	font-size: 0.9rem;
+}
+
 .brand {
 	font-family: 'Rubik', sans-serif;
 	display: flex;
